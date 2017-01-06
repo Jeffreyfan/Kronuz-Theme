@@ -448,11 +448,11 @@
          "layer0.opacity": 1.0,
          "layer0.draw_center": false,
          "layer0.inner_margin": [0, 24, 12, 24],
-         "content_margin": [0, 12, 0, 0]
+         "content_margin": [0, 0, 0, 0]
       },
       {
          "class": "sidebar_tree",
-         "row_padding": [20, 3],
+         "row_padding": [20, 1],
          "indent": 16,
          "indent_offset": 0,
          "indent_top_level": false,
@@ -480,15 +480,20 @@
 
       {
           "class": "tree_row",
-          "layer1.texture": "Theme - Kronuz/assets/tree_highlight.png",
-          "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-          "layer1.inner_margin": [22, 8, 0, 0]
+          "layer0.texture": "Theme - Kronuz/assets/tree_highlight.png",
+          "layer0.opacity": 0.0,
+          "layer0.inner_margin": [1, 1]
       },
-
       {
-         "class": "tree_row",
-         "attributes": ["selected"],
-         "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 0.7
+      },
+	  
+      {
+        "class": "tree_row",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.2
       },
 
       {
@@ -496,6 +501,7 @@
          "color": [97, 97, 97],
          "font.bold": false,
          "font.italic": false,
+         "font.size": 14,
          "shadow_color": [255, 255, 255, 0],
          "shadow_offset": [0, 0]
       },
@@ -504,7 +510,7 @@
          "class": "sidebar_label",
          "parents": [{"class": "tree_row", "attributes": ["selected"]}],
          "font.bold": false,
-         "color": [255, 255, 255]
+         "color": [0, 255, 0]
       },
 
       {
@@ -722,18 +728,6 @@
          "layer0.texture": "Theme - Kronuz/assets/folder_opened--hover.png",
       },
 
-      {
-         "class": "tree_row",
-         "layer0.tint": [33, 33, 33],
-         "layer0.opacity": 0.0,
-         "layer0.inner_margin": [1, 1]
-      },
-
-      {
-         "class": "tree_row",
-         "attributes": ["selected"],
-         "layer0.opacity": 1
-      },
          // Opened files
       {
          "class": "close_button",

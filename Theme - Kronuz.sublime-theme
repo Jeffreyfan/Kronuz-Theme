@@ -447,7 +447,7 @@
 
       {
          "class": "sidebar_container",
-         "layer0.tint": [33, 33, 33],
+         "layer0.tint": [64, 64, 64],
          "layer0.opacity": 1.0,
          "layer0.draw_center": false,
          "layer0.inner_margin": [0, 24, 12, 24],
@@ -459,7 +459,7 @@
          "indent": 16,
          "indent_offset": 0,
          "indent_top_level": false,
-         "layer0.tint": [33, 33, 33],
+         "layer0.tint": [64, 64, 64],
          "layer0.opacity": 1.0
       },
 
@@ -490,18 +490,18 @@
       {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 0.7
+        "layer0.opacity": 0.4
       },
 	  
       {
         "class": "tree_row",
         "attributes": ["hover"],
-        "layer0.opacity": 0.3
+        "layer0.opacity": 0.6
       },
 
       {
          "class": "sidebar_label",
-         "color": [97, 97, 97],
+         "color": [150, 150, 150],
          "font.bold": false,
          "font.italic": false,
          "font.size": 14,
@@ -519,7 +519,7 @@
       {
          "class": "sidebar_label",
          "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-         "color": [97, 97, 97],
+         "color": [150, 150, 150],
       },
 
       {
@@ -585,7 +585,7 @@
          "layer0.tint": [38, 50, 56],
          "layer0.opacity": 0,
          "layer1.texture": "Theme - Kronuz/assets/folder.png",
-         "layer1.opacity": 1,
+         "layer1.opacity": 0.4,
          "layer2.texture": "Theme - Kronuz/assets/folder--hover.png",
          "layer2.opacity": 0.0,
          "layer3.texture": "Theme - Kronuz/assets/folder_opened--hover.png",
